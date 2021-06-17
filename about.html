@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camashop About</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapsis.com/css2?
+    family=Poppins:wght@300;400;500;600;700;&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+
+
+    <div class="container">
+      <div class="navbar">
+          <div class="logo">
+            <a href="index.html"><img src="Logos/logoo.png" width="125px"></a>
+          </div>
+          <nav>
+            <ul id="MenuItems">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="contact us.html">Contact</a></li>
+              <li><a href="account.html">Account</a></li>
+            </ul>
+          </nav>
+          <a href="cart.html">
+            <img src="Carts/cart1.png" width="30px" height="30px">
+          </a>
+          <img src="menu.png" class="menu-icon"
+          onclick="menutoggle()">
+      </div>
+
+    </div>
+  <!------Wallpaper------>
+  <div class="Wallpaper">
+    <div class="container">
+      <div class="content">
+        <div class="col-2">
+          <div class="image">
+            <img src="Logos/logoo.png" width="100%">
+          </div>
+
+          <div class="h1">
+            About Us
+          </div>
+
+          <div class="p">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ante in nibh mauris cursus mattis.Felis bibendum ut tristique et.
+            Dolor sit amet consectetur adipiscing elit duis.
+            Leo vel fringilla est ullamcorper eget nulla facilisi.
+            Malesuada pellentesque elit eget gravida cum.
+            Consectetur adipiscing elit duis tristique sollicitudin nibh sit amet.
+            Tincidunt tortor aliquam nulla facilisi cras.
+            Magna fringilla urna porttitor rhoncus dolor purus non.
+            Dui ut ornare lectus sit amet est placerat in egestas.
+            Sagittis vitae et leo duis ut diam quam nulla porttitor.
+            Volutpat odio facilisis mauris sit amet massa. Velit ut tortor pretium viverra.
+          </div>
+          <video width="900" controls>
+            <source src="blog.mp4" type"video/mp4">
+        </video>
+
+          <span class="separator2"></span>
+
+          <div class="container">
+            <div class="col-3">
+              <i class="fa fa-quote-left"></i>
+              <p> Time is gold.</p>
+            <div class="image">
+            <img src="Authors/cabs.jpg">
+            </div>
+
+            <h3>Ivan Dale Caabay</h3>
+
+            </div>
+
+
+
+            
+          </div>
+
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+
+
+  <!------footer------>
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col-1">
+          <h3>Download our App</h3>
+          <p>Download App for Android and ios mobile phone</p>
+          <div class="app-logo">
+            <img src="Apps/aps.png">
+
+          </div>
+        </div>
+        <div class="footer-col-2">
+          <img src="Logos/logoo.png">
+          <p>Our Purpose is to pleasure and benefit  Photography
+            and videography in many ways.</p>
+        </div>
+        <div class="footer-col-3">
+          <h3>Useful Links</h3>
+          <ul>
+            <li>Coupons</li>
+            <li>Blog Post</li>
+            <li>Return Policy</li>
+            <li>Join Us</li>
+          </ul>
+        </div>
+        <div class="footer-col-4">
+          <h3>Follow Us</h3>
+          <ul>
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>Twitter</li>
+            <li>Youtube</li>
+          </ul>
+        </div>
+
+      </div>
+      <hr>
+      <p class="CopyRight">Copyright 2021©</p>
+    </div>
+
+  </div>
+
+  <script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight ="0px";
+
+    function menutoggle()
+      {
+      if(MenuItems.style.maxHeight =="0px")
+      {
+        MenuItems.style.maxHeight ="200px";
+      }
+      else {
+        MenuItems.style.maxHeight = "0px";
+      }
+    }
+
+  </script>
+
+  <!------js toggle form------>
+  <script>
+
+  var LoginForm = document.getElementById('LoginForm');
+  var RegForm = document.getElementById('RegForm');
+  var Indicator = document.getElementById('Indicator');
+
+      function register(){
+        RegForm.style.transform = "translateX(0px)";
+        LoginForm.style.transform = "translateX(0px)";
+        Indicator.style.transform = "translateX(100px)";
+
+      }
+      function login(){
+        RegForm.style.transform = "translateX(300px)";
+        LoginForm.style.transform = "translateX(300px)";
+        Indicator.style.transform = "translateX(0px)";
+      }
+  </script>
+
+
+  </script>
+  </body>
+</html>

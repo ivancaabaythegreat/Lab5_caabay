@@ -1,0 +1,321 @@
+  <!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Camashop Products</title>
+      <link rel="stylesheet" href="style.css">
+      <link href="https://fonts.googleapsis.com/css2?
+      family=Poppins:wght@300;400;500;600;700;&display=swap"
+      rel="stylesheet">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+
+
+    <div class="container">
+      <div class="navbar">
+          <div class="logo">
+            <a href="index.html"><img src="Logos/logoo.png" width="125px"></a>
+          </div>
+          <nav>
+            <ul id="MenuItems">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact us.html">Contact</a></li>
+              <li><a href="account.html">Account</a></li>
+            </ul>
+          </nav>
+          <img src="Carts/cart1.png" width="30px" height="30px">
+          <img src="menu.png" class="menu-icon"
+          onclick="menutoggle()">
+        </div>
+
+    </div>
+
+  <div class="small-container">
+    <div class="row row-2">
+      <h2>All Products</h2>
+      <select>
+        <option>Default Shorting</option>
+        <option>Short by price</option>
+        <option>Short by popularity</option>
+        <option>Short by rating</option>
+        <option>Short by sale</option>
+      </select>
+    </div>
+    <div class="row">
+      <div class="col-4">
+        <img src="Products/product1.jpg">
+        <h4>Sony a7iii</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>Php 89,000</p>
+      </div>
+      <div class="col-4">
+        <img src="Products/product2.jpg">
+        <h4>Sony Canon 1dx markiii</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+        </div>
+        <p>Php 249,000</p>
+      </div>
+      <div class="col-4">
+        <img src="Products/product3.png">
+        <h4>Nikon d850</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>Php 218,000</p>
+      </div>
+      <div class="col-4">
+        <img src="Products/product4.jpg">
+        <h4>Sony a6400</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>Php 45,000</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4">
+        <img src="Products/product1.jpg">
+        <h4>Sony a7iii</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>Php 89,000</p>
+      </div>
+      <div class="col-4">
+        <img src="Products/product2.jpg">
+        <h4>Sony Canon 1dx markiii</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+        </div>
+        <p>Php 249,000</p>
+      </div>
+      <div class="col-4">
+        <img src="Products/product3.png">
+        <h4>Nikon d850</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>Php 218,000</p>
+      </div>
+      <div class="col-4">
+        <img src="Products/product4.jpg">
+        <h4>Sony a6400</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>Php 45,000</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4">
+        <img src="Products/product6.jpg">
+        <h4>Sony a7</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <p>Php 260,000</p>
+      </div>
+
+      <div class="col-4">
+        <img src="Products/product9.png">
+        <h4>Sony Canon 5d mark IV</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+        </div>
+        <p>Php 85,000</p>
+      </div>
+      <div class="col-4">
+        <img src="Products/product11.png">
+        <h4>Nikon d6</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>Php 80,000</p>
+      </div>
+      <div class="col-4">
+        <img src="Products/product12.jpeg">
+        <h4>Sony a9</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+          <p>Php 143,000</p>
+
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="Products/product13.png">
+          <h4>Canon RF 85mm</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+            <p>Php 20,000</p>
+        </div>
+        <div class="col-4">
+          <img src="Products/product14.jpg">
+          <h4>Sony 18-108mm</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+            <p>Php 24,000</p>
+        </div>
+        <div class="col-4">
+          <img src="Products/product15.png">
+          <h4>Nikon 70-200mm</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+            <p>Php 45,000</p>
+        </div>
+        <div class="col-4">
+          <img src="Products/product16.jpg">
+          <h4>Sony 70-300mm</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+            <p>Php 75,000</p>
+        </div>
+      </div>
+      <div class="page-btn">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>&#8594</span>
+
+      </div>
+
+    </div>
+  </div>
+  <!------footer------>
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col-1">
+          <h3>Download our App</h3>
+          <p>Download App for Android and ios mobile phone</p>
+          <div class="app-logo">
+            <img src="Apps/aps.png">
+
+          </div>
+        </div>
+        <div class="footer-col-2">
+          <img src="Logos/logoo.png">
+          <p>Our Purpose is to pleasure and benefit  Photography
+            and videography in many ways.</p>
+        </div>
+        <div class="footer-col-3">
+          <h3>Useful Links</h3>
+          <ul>
+            <li>Coupons</li>
+            <li>Blog Post</li>
+            <li>Return Policy</li>
+            <li>Join Us</li>
+          </ul>
+        </div>
+        <div class="footer-col-4">
+          <h3>Follow Us</h3>
+          <ul>
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>Twitter</li>
+            <li>Youtube</li>
+          </ul>
+        </div>
+
+      </div>
+      <hr>
+      <p class="CopyRight">Copyright 2021©</p>
+    </div>
+
+  </div>
+
+  <script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight ="0px";
+
+    function menutoggle()
+      {
+      if(MenuItems.style.maxHeight =="0px")
+      {
+        MenuItems.style.maxHeight ="200px";
+      }
+      else {
+        MenuItems.style.maxHeight = "0px";
+      }
+    }
+
+    </script>
+  </body>
+</html>
